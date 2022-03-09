@@ -1,7 +1,9 @@
-package com.gmail.rak.aleh;
+package com.gmail.rak.aleh.model;
 
-import com.gmail.rak.aleh.impl.CalculationServiceImpl;
-import com.gmail.rak.aleh.impl.GetInputDataServiceImpl;
+import com.gmail.rak.aleh.service.CalculationService;
+import com.gmail.rak.aleh.service.GetInputDataService;
+import com.gmail.rak.aleh.service.impl.CalculationServiceImpl;
+import com.gmail.rak.aleh.service.impl.GetInputDataServiceImpl;
 
 public class Calculator {
     private final GetInputDataService dataService = new GetInputDataServiceImpl();
