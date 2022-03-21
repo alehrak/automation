@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factory SYSTEM "factory.dtd">
+<factory>
+    <department name="second_department" director="Petrov" min_count_employee="1">
+        <employee>
+            <name>Ivanov</name>
+            <position>QA</position>
+            <salary>200</salary>
+        </employee>
+    </department>
+</factory>

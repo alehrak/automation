@@ -11,4 +11,14 @@
             <class name="collections.MyStackTest"/>
         </classes>
     </test>
+    <test name="test for myDDL">
+        <classes>
+            <class name="collections.MyDDLTest"></class>
+        </classes>
+    </test>
+    <test name="test for MyQueue">
+        <classes>
+            <class name="collections.MyQueueTest"></class>
+        </classes>
+    </test>
 </suite>

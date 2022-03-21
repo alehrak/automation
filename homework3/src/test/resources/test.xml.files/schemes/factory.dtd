@@ -1,0 +1,10 @@
+<!ELEMENT factory (department)>
+        <!ELEMENT department (employee)>
+        <!ELEMENT employee (name, position, salary)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT position (#PCDATA)>
+        <!ELEMENT salary (#PCDATA)>
+        <!ATTLIST department
+                name CDATA
+                director CDATA
+                min_count_employee CDATA

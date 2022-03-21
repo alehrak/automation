@@ -1,0 +1,26 @@
+<fs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" xmlns:fs="http://www.w3.org/2001/XMLSchema">
+<fs:element name="factory">
+        <fs:complexType>
+            <fs:sequence>
+                <fs:element name="department" minOccurs="1">
+                    <fs:complexType>
+                        <fs:sequence>
+                            <fs:element name="employee" minOccurs="1">
+                                <fs:complexType>
+                                    <fs:sequence>
+                                        <fs:element name="name" type="fs:string"/>
+                                        <fs:element name="position" type="fs:string"/>
+                                        <fs:element name="salary" type="fs:decimal"/>
+                                    </fs:sequence>
+                                </fs:complexType>
+                            </fs:element>
+                        </fs:sequence>
+                        <fs:attribute name="name" type="fs:string"/>
+                        <fs:attribute name="director" type="fs:string"/>
+                        <fs:attribute name="min_count_employee" type="fs:int"/>
+                    </fs:complexType>
+                </fs:element>
+            </fs:sequence>
+        </fs:complexType>
+    </fs:element>
+</fs:schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item_list>
+    <item>
+        <name><![CDATA[Big Bag<1>]]></name>
+        <weight>25</weight>
+    </item>
+    <item>
+        <name>Small Bag</name>
+        <weight>5</weight>
+        <description>my bag</description>
+    </item>
+</item_list>

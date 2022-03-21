@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school number="1">
+    <class name="11B" teacher="Prokop A.A.">
+        <student>
+            <name>Oleg</name>
+            <last_name>Rak</last_name>
+            <grade>9</grade>
+        </student>
+        <student>
+            <name>Krystsina</name>
+            <last_name>Rak</last_name>
+            <grade>8</grade>
+        </student>
+    </class>
+</school>
