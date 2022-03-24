@@ -19,7 +19,7 @@ public class ConnectionServiceImpl implements ConnectionService {
             System.out.println("org.sqlite.JDBC driver does not exist");
         }
         try {
-            connection = DriverManager.getConnection("jdbc:sqlite:/Users/olegrak/pet_projects/automation/homeworks/automation/homework4.db");
+            connection = DriverManager.getConnection("jdbc:sqlite:homework4.db");
         } catch (SQLException e) {
             e.printStackTrace();
             System.out.println(e.getMessage());
