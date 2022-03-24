@@ -23,6 +23,7 @@ public class UserServiceImpl implements UserService {
             statement.setString(2, user.getName());
             statement.setString(3, user.getAddress());
             statement.executeUpdate();
+            System.out.println("new user has been added "+ user.toString());
         } catch (SQLException e) {
             e.printStackTrace();
             System.out.println("an error occurred while adding user:" + user.toString());
@@ -46,6 +47,7 @@ public class UserServiceImpl implements UserService {
                         preparedStatement.setInt(2, user.getUserId());
                         preparedStatement.setString(3, account.getCurrency());
                         preparedStatement.executeUpdate();
+                        System.out.println("for the user - "+ user.toString()+"created account - "+account.toString());
                         connection.commit();
                     } catch (SQLException e) {
                         e.printStackTrace();

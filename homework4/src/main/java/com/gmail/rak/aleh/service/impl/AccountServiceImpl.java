@@ -38,7 +38,9 @@ public class AccountServiceImpl implements AccountService {
                             preparedStatement.setInt(2, account.getAccountId());
                             preparedStatement.executeUpdate();
                             connection.commit();
-                            System.out.println("after replenishment, the balance is equal to = " + balance);
+                            double result = balance * 1 / 1000.0;
+                            System.out.println("balance replenishment transaction - " + transaction.toString() + " passed successfully");
+                            System.out.println("after replenishment, the balance is equal to = " + result);
                         }
                     } catch (SQLException e) {
                         try {
@@ -82,7 +84,9 @@ public class AccountServiceImpl implements AccountService {
                             preparedStatement.setInt(2, account.getAccountId());
                             preparedStatement.executeUpdate();
                             connection.commit();
-                            System.out.println("after withdrawal, the balance is equal to = " + balance);
+                            double result = balance * 1 / 1000.0;
+                            System.out.println("withdrawal transaction - " + transaction.toString() + " passed successfully");
+                            System.out.println("after withdrawal, the balance is equal to = " + result);
                         }
                     } catch (SQLException e) {
                         try {

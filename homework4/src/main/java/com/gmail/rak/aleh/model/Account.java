@@ -40,4 +40,13 @@ public class Account {
     public void setCurrency(String currency) {
         this.currency = currency;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accountId=" + accountId +
+                ", balance=0" +
+                ", currency='" + currency + '\'' +
+                '}';
+    }
 }

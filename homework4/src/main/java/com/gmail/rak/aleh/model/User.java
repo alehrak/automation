@@ -50,7 +50,6 @@ public class User {
                 "userId=" + userId +
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
-                ", accounts=" + accounts +
                 '}';
     }
 }

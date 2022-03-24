@@ -35,7 +35,7 @@ public class Main {
         Transaction transactionWithdrawFounds = new Transaction();
         transactionAddingFounds.setTransactionId(1);
         transactionWithdrawFounds.setTransactionId(2);
-        accountService.addingFoundsToAccount(transactionAddingFounds, account, 1000);
+        accountService.addingFoundsToAccount(transactionAddingFounds, account, 1234567);
         //accountService.withdrawalFoundsToAccount(transactionWithdrawFounds, account, 900);
     }
 }
