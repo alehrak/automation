@@ -1,0 +1,90 @@
+2022-05-03 18:03:06 INFO  ComputersAndNetworksPageTest:22 - Computers and networks page open successfully
+2022-05-03 18:03:06 INFO  ComputersAndNetworksPageTest:35 - collect necessary items - [Ноутбуки, компьютеры, мониторы, Комплектующие, Хранение данных, Сетевое оборудование]
+2022-05-03 18:03:07 INFO  ComputersAndNetworksPageTest:43 - the item - Ноутбуки, компьютеры, мониторы exists in the page computer and networks
+2022-05-03 18:03:07 INFO  ComputersAndNetworksPageTest:43 - the item - Комплектующие exists in the page computer and networks
+2022-05-03 18:03:07 INFO  ComputersAndNetworksPageTest:43 - the item - Хранение данных exists in the page computer and networks
+2022-05-03 18:03:07 INFO  ComputersAndNetworksPageTest:43 - the item - Сетевое оборудование exists in the page computer and networks
+2022-05-03 18:03:07 INFO  ComputersAndNetworksPageTest:28 - a drop-down menu appeared on the screen
+2022-05-03 18:03:10 INFO  CatalogTest:21 - Catalog page open successfully
+2022-05-03 18:03:10 INFO  CatalogTest:28 - collect necessary items - [Электроника, Компьютеры и сети, Бытовая техника, Стройка и ремонт, Дом и сад, Авто и мото, Красота и спорт, Детям и мамам, Работа и офис, Еда]
+2022-05-03 18:03:10 INFO  CatalogTest:36 - the item - Электроника exists in the catalog
+2022-05-03 18:03:11 INFO  CatalogTest:36 - the item - Компьютеры и сети exists in the catalog
+2022-05-03 18:03:11 INFO  CatalogTest:36 - the item - Бытовая техника exists in the catalog
+2022-05-03 18:03:11 INFO  CatalogTest:36 - the item - Стройка и ремонт exists in the catalog
+2022-05-03 18:03:11 INFO  CatalogTest:36 - the item - Дом и сад exists in the catalog
+2022-05-03 18:03:11 INFO  CatalogTest:36 - the item - Авто и мото exists in the catalog
+2022-05-03 18:03:11 INFO  CatalogTest:36 - the item - Красота и спорт exists in the catalog
+2022-05-03 18:03:11 INFO  CatalogTest:36 - the item - Детям и мамам exists in the catalog
+2022-05-03 18:03:12 INFO  CatalogTest:36 - the item - Работа и офис exists in the catalog
+2022-05-03 18:03:15 INFO  AccessoriesTest:21 - Accessories page open successfully
+2022-05-03 18:03:15 INFO  AccessoriesTest:29 - collect checked components - [Видеокарты
+1,671 товар
+от 105,39 р., Процессоры
+1,149 товаров
+от 38,37 р., Материнские платы
+1,675 товаров
+от 107,10 р., Оперативная память
+4,362 товара
+от 33,12 р., Системы охлаждения
+3,156 товаров
+от 1,71 р., SSD
+3,075 товаров
+от 53,00 р., Жесткие диски
+1,073 товара
+от 39,27 р., Корпуса
+2,750 товаров
+от 26,63 р., Блоки питания
+2,007 товаров
+от 32,01 р., Звуковые карты
+83 товара
+от 8,91 р., Сетевые адаптеры
+434 товара
+от 15,00 р., Оптические приводы
+137 товаров
+от 40,83 р., ТВ-тюнеры и карты видеозахвата
+29 товаров
+от 40,50 р., Аксессуары для майнинга
+7 товаров
+от 218,90 р.]
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Видеокарты
+1,671 товар
+от 105,39 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Процессоры
+1,149 товаров
+от 38,37 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Материнские платы
+1,675 товаров
+от 107,10 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Оперативная память
+4,362 товара
+от 33,12 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Системы охлаждения
+3,156 товаров
+от 1,71 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - SSD
+3,075 товаров
+от 53,00 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Жесткие диски
+1,073 товара
+от 39,27 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Корпуса
+2,750 товаров
+от 26,63 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Блоки питания
+2,007 товаров
+от 32,01 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Звуковые карты
+83 товара
+от 8,91 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Сетевые адаптеры
+434 товара
+от 15,00 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Оптические приводы
+137 товаров
+от 40,83 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - ТВ-тюнеры и карты видеозахвата
+29 товаров
+от 40,50 р. contains the number of products and the minimum price
+2022-05-03 18:03:15 INFO  AccessoriesTest:43 - the element - Аксессуары для майнинга
+7 товаров
+от 218,90 р. contains the number of products and the minimum price
