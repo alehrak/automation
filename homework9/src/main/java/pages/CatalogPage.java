@@ -1,0 +1,33 @@
+package pages;
+
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.SelenideElement;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import static com.codeborne.selenide.Selenide.$$;
+import static com.codeborne.selenide.Selenide.$x;
+
+public class CatalogPage extends BasePage {
+    private static final String XPATH_OPEN_CATALOG_ONLINER =
+            "//span[@class='b-main-navigation__text'][text()='Каталог']";
+    private static final String CSS_SELECTOR_SEARCH_FOR_CATALOG_ITEMS =
+            ".catalog-navigation-classifier__item-title-wrapper";
+
+    public CatalogPage() {
+    }
+
+    @Override
+    public void openPage() {
+        super.openMainPageOnliner();
+        $x(XPATH_OPEN_CATALOG_ONLINER).click();
+    }
+
+    public List<String> getSectionsCatalog() {
+        ElementsCollection catalogSections = $$(CSS_SELECTOR_SEARCH_FOR_CATALOG_ITEMS);
+        return catalogSections.stream()
+                .map(SelenideElement::getText)
+                .collect(Collectors.toList());
+    }
+}
